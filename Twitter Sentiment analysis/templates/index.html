@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SentimentAnalyser</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css') }}">
+</head>
+
+<body>
+
+  <section class = "upper-section">
+    <h1 class="display-1" class="heading">Twitter Sentiment Analyser</h1>
+    <div class = "browse">
+      <form method="POST" action="" enctype="multipart/form-data">
+        <p class = "select"><input type="file" class="btn btn-outline-primary" class="shadow p-3 mb-5 bg-body rounded" name="file"></p>
+        <p class = "predict"><input type="submit" class="btn btn-outline-dark btn-lg" value="Predict"></p>
+      </form>
+    </div>
+  </section>
+  <a href="https://github.com/abhi2666" title="Image from freepnglogos.com"><img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" width="200" alt="twitter logo vector png clipart" /></a>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>

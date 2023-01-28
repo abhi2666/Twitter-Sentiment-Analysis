@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <div class="blue">
+        <h1 class="containor">Predicted Result</h1>
+    </div>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles2.css') }}">
+</head>
+
+<body>
+    <div class="purple">
+        <h1>
+            Percentage of Positive Tweets
+            <p>
+                {{positive}}
+
+            </p>
+        </h1>
+
+    </div>
+    <div class="pink">
+        <h1>
+            Percentage of Negative Tweets
+            <p>
+                {{negative}}
+            </p>
+        </h1>
+
+    </div>
+    
+    <script src="app.js ">
+    </script>
+</body>
+
+</html>

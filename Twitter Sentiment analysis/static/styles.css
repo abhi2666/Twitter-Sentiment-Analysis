@@ -1,0 +1,31 @@
+body{
+    background-color:#B9F3FC;
+}
+
+.heading{
+    margin-top: 2rem;
+}
+
+.upper-section{
+    text-align: center;
+}
+
+.browse{
+    background-color: #93C6E7;
+    border-top: 5px groove #0081B4;
+    border-bottom: 5px groove #0081B4;
+    margin-top: 2rem;
+}
+.select{
+    padding-top: 20px;
+}
+
+.predict{
+    margin-top: 3rem;
+    padding-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+  }
